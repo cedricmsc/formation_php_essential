@@ -11,22 +11,10 @@
     </style>
 </head>
 <body>
+<h1>Waiting for ...</h1>
     <?php
-        $numbers = [4,8,15,16,23,42];
-        $string = "papa, Maman, Père, Mère, Enfant, Grand-père, Grand-mère";
-        $myString = "Bonjour, je m'appelle Copilot";
+       
+
     ?>
-    
-    Implode: <?php $createString = implode(" - ", $numbers); 
-    echo $createString;?> <br>
-
-    Explode: <?php $myExplode= explode(" ",  $string  ,7);?> 
-    <br>
-    <?php print_r($myExplode) ?>
-    <br>
-    <?php foreach($myExplode as $value){echo $value;} ?>
-
-
-
 </body>
 </html>
