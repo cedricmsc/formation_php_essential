@@ -35,8 +35,18 @@
 
         //key: returns the key of the current element
         echo "8: ".key($ages)."<br>";
+        
 
-    
+        reset($ages);
+
+
+        //While loop moves the array pointer
+        //Similar to foreach
+        while($age = current($ages)) {
+            echo  $age . ", ";
+            next($ages);
+        }
+
     ?><br>
     
 </body>

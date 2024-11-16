@@ -1,0 +1,6 @@
+1- echo $variable;          // variable value
+2- print_r($array)          // print readable array
+3- gettype($variable)       // variable type
+4- var_dump($variable)      // variable type and value
+5- get_defined_vars()       // array of defined variables
+6- debug_backtrace()

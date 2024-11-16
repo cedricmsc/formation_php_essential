@@ -13,8 +13,16 @@
 <body>
 <h1>Waiting for ...</h1>
     <?php
-       
+        
+        function hello_to(string $name, int $age = 25) {
+            return "hello {$name}, your are $age years old";
+        }
+    ?>
+    <h2>
+    <?php    
+    phpinfo()
 
     ?>
+    </h2>
 </body>
 </html>

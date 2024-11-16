@@ -1,0 +1,18 @@
+##
+►In php.ini file:
+
+    display_errors = On
+    error_reporting = E_ALL
+
+►In php code:
+    ini_set('display_error', 'On');
+    error_reporting(E_ALL); Sample line of text
+
+**Error Categories**
+1- Fatal errors : php understood the code but could not execute it
+2- Syntax errors: Php could not understand or process the code
+3- Warning: Php found a problem but was able to recover
+4- Notices: Php is offering advice
+
+
+
